@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.one_section{
+        background-color: #f0f2f5;
+        padding: 10px;
+}
+.Box_parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+    height: 80vh;
+    align-items: center;
+}
+.logo_box{
+    width: 500px;
+}
+.logo_box img{
+    width: 300px;
+    margin-bottom: 15px;
+}
+.logo_box p{
+    font-size: 26px;
+    font-weight: normal;
+    text-align: left;
+}
+
+/* form code started */
+.form_box{
+    width: 450px;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 2px 10px 1px rgba(72, 72, 72, 0.198);
+}
+form , a{
+    background-color: white;
+}
+input[type="email"], input[type="password"] {
+    display: block;
+    background-color: #fff;
+    margin: 20px auto;
+    border: 0.5px solid rgb(200, 200, 200);
+    width: 400px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Segoe UI';
+}
+.login{
+    display: block;
+    border: none;
+    background-color: #154bffea;
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.forpass{
+    text-decoration: none;
+    width: 400px;
+    display: block;
+    margin:5px auto 13px auto;
+    color: #1877f2;
+    font-family: 'Segoe UI';
+}
+hr{
+    border-top: 1px solid rgba(128, 128, 128, 0.614);
+}
+.cnaccount{
+    text-decoration: none;
+    background-color: #42872A;
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    color: white;
+    padding: 15px 0;
+    border-radius: 5px;
+}
+/* nextsection code  */
+.next_section{
+    background-color: #fff;
+    width: 1150px;
+    margin: 0 auto;
+    color: gray;
+    padding: 10px;
+}
+.up_txt{
+    margin-top: 15px;
+    margin-bottom: 12px;
+    font-size: 12px;
+    word-spacing: 2px;
+}
+.down_txt{
+    font-size: 12px;
+    word-spacing: 10px;
+    line-height: 1.8;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.plus_icon{
+    border: 1px solid gray;
+    font-size: 13px;
+    padding: 0px 6px 0px 6px;
+    color: #0c0c0c;
+    background-color: #cfcfcf6b;
+}
+.meta_ico{
+    font-size: 11px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}
